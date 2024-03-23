@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #164a41;
+    overflow-x: hidden;
+}
+
+
+.bgBall1 {
+    position: absolute;
+    top: 0px;
+    z-index: -1212;
+    top: 200px;
+    left: -400px;
+    width: 800px;
+}
+
+
+.bgBall3 {
+    position: absolute;
+    top: 2000px;
+    z-index: -1212;
+    left: 1400px;
+    width: 800px;
+}
+
+.bgBall4 {
+    position: absolute;
+    top: 4000px;
+    z-index: -1212;
+    left: -400px;
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contant_header {
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 20px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(11, 12, 12, 0.5);
+    background-color: #d5dddf;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.right input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(41, 41, 41);
+    padding-left: 13px;
+    border-radius: 10px;
+    background-color: #d5dddf;
+    color: black;
+}
+
+.main {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container_main {
+    max-width: 1200px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(11, 12, 12, 0.5);
+    background-color: #d5dddf;
+}
+
+
+.card {
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 10px rgb(88, 88, 88);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 0 0px rgb(88, 88, 88);
+    transform: scale(1.1);
+}
+
+.name h2 {
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.social a {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.social a:last-child {
+    margin-right: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.webSite a {
+    text-decoration: none;
+    color: #228B22;
+    text-align: center;
+    font-weight: 500;
+}
+
+.webSite {
+    margin-top: 7px;
+}
+
+.moreInf {
+    margin-top: 7px;
+}
+
+.moreInf button {
+    width: 100%;
+    border: 1px solid #0c4b0c;
+    color: rgb(58, 57, 57);
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.moreInf button:hover {
+    background-color: #0c4b0c;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
