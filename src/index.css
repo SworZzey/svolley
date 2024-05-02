@@ -53,8 +53,66 @@ body {
     background-color: #d5dddf;
 }
 
+.mainGames {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.containerGames {
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(11, 12, 12, 0.5);
+    background-color: #d5dddf;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timeMatch {
+    text-align: center;
+}
+
+.match1 {
+    width: 100%;
+}
+.match2 {
+    width: 100%;
+    margin-top: 20px;
+}
+.match3 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nameLogoA1 p {
+    font-weight: 500;
+}
+
+.timeMatch p {
+    font-weight: 600;
+}
+
 .logo {
     width: 150px;
+}
+
+.teama1 {
+    width: 200px;
+}
+.teams {
+    display: flex;
+}
+
+.teamb1 {
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+.teams {
+    margin-top: 20px;
 }
 
 .logo img {
@@ -64,7 +122,32 @@ body {
 .right {
     margin-left: auto;
 }
+.butStream {
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    background-color: #164a41;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: all 0.3s ease;
+}
+.butStream:hover {
+    background-color: #0c312b;
+}
 
+.butStream a {
+    width: 100%;
+    color: #d5dddf;
+}
+a {
+    text-decoration: none;
+}
+
+.stream {
+    text-align: center;
+    margin: 0 auto;
+}
 .right input {
     width: 300px;
     height: 40px;
